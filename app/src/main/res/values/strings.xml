@@ -2,4 +2,13 @@
     <string name="app_name">PPID Boyolali</string>
     <string name="next">Next</string>
     <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="informasi_berkala">Informasi Berkala</string>
+    <string name="intro1">Informasi Yang Wajib Disediakan dan Diumumkan Secara Berkala</string>
+    <string name="intro2">Informasi yang wajib diumumkan secara serta merta</string>
+    <string name="intro3">Informasi Yang Waib Tersedia Setiap Saat</string>
+    <string name="informasi_setia_saat">Informasi Setia Saat</string>
+    <string name="intro4">Informasi yang di kecualikan</string>
+    <string name="informasi_yang_di_kecualikan">Informasi yang di kecualikan</string>
+
 </resources>
