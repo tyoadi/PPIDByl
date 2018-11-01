@@ -49,12 +49,6 @@
         android:orientation="horizontal"
         android:layout_marginBottom="10dp"/>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_above="@id/layoutDots"
-        android:alpha=".5"
-        android:background="@android:color/white" />
 
     <LinearLayout
         android:id="@+id/buttom_bawah"

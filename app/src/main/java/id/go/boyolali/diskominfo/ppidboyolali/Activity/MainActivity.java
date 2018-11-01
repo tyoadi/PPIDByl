@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void launchHomeScreen() {
         prefManager.setFirstTimeLaunch(false);
-        startActivity(new Intent(MainActivity.this, MainActivity.class));
+        startActivity(new Intent(MainActivity.this, Home.class));
         finish();
     }
 

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".Activity.Home">
+
+
+    <View
+        android:id="@+id/bg_home"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/bg_home"/>
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PPID Boyolali"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp"
+        android:textColor="@color/icons"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_notif" />
+
+
+    <TextView
+        android:id="@+id/judul_brita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brita Populer"
+        android:textSize="17sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/judul"
+        android:textColor="@color/icons"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lihat semua"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textSize="17sp"
+        android:layout_margin="16dp"
+        android:layout_below="@id/judul"
+        android:textColor="@color/icons"/>
+
+    <include
+        android:id="@+id/brita"
+        layout="@layout/card_brita"
+        android:layout_below="@id/judul_brita"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="16dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutDots"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dots_height"
+        android:gravity="center"
+        android:layout_below="@id/brita"
+        android:orientation="horizontal" />
+
+
+    <TextView
+        android:id="@+id/layanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutDots"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Layanan"/>
+
+
+    <include layout="@layout/button_layanan"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/layanan"
+        android:layout_margin="16dp"/>
+
+
+</RelativeLayout>
